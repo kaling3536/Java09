@@ -1,18 +1,18 @@
 package test;
 
-class CRational {
+class CRational {			// 分數類別
 	int n;
 	int d;
 
-	public void setN(int num) {
+	public void setN(int num) {	// 設定分子
 		n = num;
 	}
 
-	public void setD(int num) {
+	public void setD(int num) {	// 設定分母
 		d = num;
 	}
 
-	public void show() {
+	public void show() {		// 顯示分數
 		System.out.println(n + "/" + d);
 	}
 
@@ -36,3 +36,4 @@ public class hw9_10a {
 	}
 
 }
+
